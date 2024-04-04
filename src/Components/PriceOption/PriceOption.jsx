@@ -1,8 +1,7 @@
 import Feature from "../Feature/Feature";
 
 const PriceOption = ({ option }) => {
-    console.log(option)
-    const { id, name, price, features } = option;
+    const { name, price, features } = option;
     return (
         <div className="bg-blue-500 rounded-lg text-white p-4 text-center flex justify-between flex-col">
             <div className="space-y-4">
